@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Scuola </title>
+<style>
+		h1 {
+  text-shadow: 1px 2px #d4d0cb; 		/*scritta doppia in H1*/
+}
+	body {
+  background-image: url("sfondologin.jpg"); /*gifblu.gif*/
+   background-repeat: no-repeat;
+   background-color:black;
+   background-size: 1200px 1100px;
+}
+	 .barra {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x:hidden;
+  padding-top:260px; /* DISTANZA SRITTE LATERALI DALL'ALTO */
+}
+
+.barra a {
+  padding: 6px 8px 6px 13px; /* DISTANZE SCRITTE */
+  text-decoration : none; /* 	RIMUOVERE SCRITTA SOTTOLINEATA NELLA BARRA */
+  font-size: 40px;
+  font-family: "Times New Roman";
+  color: #432d4a; /* COLORE SCRITTE LATERALI */
+  display: block; /*SPAZIATURA*/
+}
+
+.barra a:hover {
+  color: #96918a; /*CURSORE SOPRA LE SCRITTE */
+}
+
+.home {
+  height:100%;
+/*  background-color :#8a7f7f; */
+  margin-left: 180px; /* INIZIO SCRITTA CENTRALE */
+  font-size: 28px; 
+  font-family: "Times New Roman";
+  padding: 20px 10px; /* DISATANZA BARRA VIOLA */
+}
+.colore { /*COLORE SCRITTA*/
+	color:#96918a;
+	font-family: "Times New Roman";
+	}
+.corsivo {
+	font-size:11px;
+	}
+.corsivo2 {
+	font-size:13px;
+	}
+.collegamenti {
+	font-size:15px;
+	}
+.collegamenti a {
+	text-decoration : none;
+	color: #171616;
+	}
+.collegamenti a.hover {
+		color: #ab6613;
+	}
+.size {
+	font-size:20px;
+	font-family: "Times New Roman";
+	}
+.collegamentii {
+	font-size:20px;
+	}
+.collegamentii a{	/*SOTTOLINEATURE COLORE*/
+	color: #d4d0cb;
+	}
+.bianco{
+	color: #d4d0cb;
+	font-family: "Times New Roman";
+	}
+.viola{
+	color: #432d4a;
+	font-family: "Times New Roman";
+	}
+.container {
+  position: relative;
+  width: 50%;
+}
+.titolo {
+	color:#576c7d;
+	font-family: "Times New Roman";
+	}
+/*immagine*/
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #9c958c;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .7s ease;
+}
+.container {
+.container {
+  position: relative;
+  width: 37%;
+}
+}
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: #432d4a;
+  font-size: 20px;
+  font-family: "Times New Roman";
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*fine immagine*/
+p.rtl {				/*direzione scritta a destra*/
+  direction: rtl;
+}
+* {
+  box-sizing: border-box;
+}
+
+.zoominsta {
+	padding:60px;
+	background-repeat: no-repeat;
+  background-image: url("insta100.gif");
+  transition: transform .2s;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.zoominsta:hover {
+	background-image: url("qr.png");
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.zoomtwitter {
+	padding:60px;
+	background-repeat: no-repeat;
+  background-image: url("twittergif90.gif");
+  transition: transform .2s;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.zoomtwitter:hover {
+	background-image: url("qrtwitterr.png");
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.zoomfacebook {
+
+	padding:60px;
+	background-repeat: no-repeat;
+  background-image: url("facebook1.gif");
+  transition: transform .2s;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.zoomfacebook:hover {
+	background-image: url("qrfacebook.png");
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.zoomreddit {
+
+	padding:80px;
+	padding-top:30px;
+	background-repeat: no-repeat;
+  background-image: url("redditgif.gif");
+  transition: transform .2s;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.zoomreddit:hover {
+	background-image: url("qreddit.png");
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.cita{
+	color:#576c7d;
+	font-size:15px;
+	}
+
+								</style>
+</head>
+<body>
+ <body bgcolor="#8a7f7f">
+<div class="barra"> <!--div SERVE PER DIVIDERE HTML CON CSS -->
+  <a href="Home.html">Home</a>
+  <a href="ChiSono.html">Chi sono</a>
+  <a href="sport.html">Sport</a>
+  <a href="hobby.html">Hobby</a>
+    <a href="inizia.html"><img src="homepic.png" width="40" height="40" padding="50px" ></a>
+
+</div>
+<div class="colore">
+<div class="home">
+	<center>
+		<div class="viola">
+<h1> Social </h1>
+</div>
+</center>
+<center>
+		<section>
+	    <article>
+  <div class="size">
+	  <div class="collegamentii">
+  <p> Se vuoi puoi seguirmi nei miei social network!</div> </p>
+  </center>
+	  <div class="zoomfacebook"> </div>
+	  	  <div class="zoomreddit"> </div>
+		  <div class="zoominsta"> </div>
+		  <div class="zoomtwitter"> </div>
+</div>
+</div> 
+</body>
+</html>
+			

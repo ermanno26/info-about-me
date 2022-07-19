@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Chi sono </title>
+<style>
+		h1 {
+  text-shadow: 2px 2px black; 		/*scritta doppia in H1*/
+}
+	
+	body {
+  background-image: url("sfondoio.jpg"); /*gifblu.gif*/
+   background-repeat: no-repeat;
+   background-color:black;
+   background-size: 1200px 1100px;
+}
+	 .barra {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x:hidden;
+  padding-top:260px; /* DISTANZA SRITTE LATERALI DALL'ALTO */
+}
+
+.barra a {
+  padding: 6px 8px 6px 13px; /* DISTANZE SCRITTE */
+  text-decoration : none; /* 	RIMUOVERE SCRITTA SOTTOLINEATA NELLA BARRA */
+  font-size: 40px;
+  font-family: "Times New Roman";
+  color: #432d4a; /* COLORE SCRITTE LATERALI */
+  display: block; /*SPAZIATURA*/
+}
+
+.barra a:hover {
+  color: #96918a; /*CURSORE SOPRA LE SCRITTE */
+}
+
+.home {
+  height:100%;
+  margin-left: 180px; /* INIZIO SCRITTA CENTRALE */
+  font-size: 28px; 
+  font-family: "Times New Roman";
+  padding: 20px 10px; /* DISATANZA BARRA VIOLA */
+}
+.colore { /*COLORE SCRITTA*/
+	color:#96918a;
+	font-family: "Times New Roman";
+	}
+.corsivo {
+	font-size:11px;
+	}
+.corsivo2 {
+	font-size:13px;
+	}
+.collegamenti {
+	font-size:15px;
+	}
+.collegamenti a {
+	text-decoration : none;
+	color: #171616;
+	}
+.collegamenti a.hover {
+		color: #ab6613;
+	}
+.size {
+	font-size:20px;
+	font-family: "Times New Roman";
+	}
+.collegamentii {
+	font-size:20px;
+	}
+.collegamentii a{	/*SOTTOLINEATURE COLORE*/
+	color: #d4d0cb;
+	}
+.bianco{
+	color: #d4d0cb;
+	font-family: "Times New Roman";
+	}
+.viola{
+	color: #432d4a;
+	font-family: "Times New Roman";
+	}
+.container {
+  position: relative;
+  width: 50%;
+}
+.titolo {
+	color:#576c7d;
+	font-family: "Times New Roman";
+	}
+/*immagine*/
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .7s ease;
+}
+.container {
+.container {
+  position: relative;
+  width: 37%;
+}
+}
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: #d4d0cb;
+  font-size: 20px;
+  font-family: "Times New Roman";
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*fine immagine*/
+p.rtl {				/*direzione scritta a destra*/
+  direction: rtl;
+}
+</style>
+</head>
+<body>
+ <body bgcolor="#8a7f7f">
+<div class="barra"> <!--div SERVE PER DIVIDERE HTML CON CSS -->
+  <a href="Home.html">Home</a>
+  <a href="sport.html">Sport</a>
+  <a href="scuola.html">Scuola</a>
+  <a href="hobby.html">Hobby</a>
+  	<a href="inizia.html"><img src="homepic.png" width="40" height="40" ></a>
+	  		   
+	        <a href="social.html"><img src="socials.png" width="40" height="40" padding-right="50px" ></a>
+		        
+</div>
+<div class="colore">
+<div class="home">
+	<center>
+		<div class="viola">
+<h1> Chi sono? </h1>
+</div>
+</center>
+  <article>
+  <div class="size">
+	  <div class="collegamentii">
+  <p> Mi chiamo Ermanno Jorgji, sono nato a Codogno il 26 Settembre del 2002. Vivo a 
+	  <a href="https://www.google.com/maps/place/26828+Turano+Lodigiano+LO/data=!4m2!3m1!1s0x4781265f1971a75d:0x9aad4f9e04ab6b96?sa=X&ved=2ahUKEwju-KirgYrsAhVSDewKHa7CBFkQ8gEwAHoECAsQAQ">Turano Lodigiano </a>  ed ho 18 anni.</div> </p>
+  <p> </p>
+  <center> <!--centrare foto-->
+  <div class="container">
+  <img src="FotoMia.jpg" "170" height="150"/>
+  <div class="overlay">
+    <div class="text">Io a 8 anni</div>
+  </div>
+</div>
+  </center>
+  <div class="titolo">
+	  		  <center>
+	  	  <h3> Brevemente... </h3>
+		  	  </center>
+		  </div>
+		  <div class="collegamentii">
+			  <center>
+	  <p> Sin da bambino quando ricevetti il mio primo telefono (<em>samsung star II</em>), iniziai a smanettarci ed campire come esso funzionasse, guardavo un sacco di video e stavo sempre al passo con le ultime uscite e le nuove tecnologie implementate negli smartphone. Dal telefono mi spostai all'Ipad e successivamente al Computer, il quale mi affascin&#242 moltissimo, &#232 stato anche argomento del mio esame di terza media il quale oltre ad essere piaciuto, ha incuriosito moltissimo i professori. Per questo motivo ho deciso di iscrivermi in una <a href="Scuola.html">scuola </a> con indirizzo informatico. In questo periodo, oltre alla programmazione, sono molto incuriosito dalla Sicurezza Informatica... Pure il lato hardware &#232 molto bello, a casa ho costruito il mio primo computer, assemblandolo pezzo per pezzo e non ho trovato alcun tipo di difficolt&#224 nel farlo.
+	  </center>
+	  </div>
+</article>
+<section>
+	<div class="titolo">
+		<center>
+  <h3> Cosa mi piace della programmazione?</h3>
+  </center>
+  </div>
+  <div class="size">
+	  <center>
+  <p> Oltre al codice che ti permette di svilupparlo seguendo una propria idea, arricchendolo man mano anche di comandi mai utilizzati dandoti dunque la possibilit&#224 di imparare sempre di pi&#249, apprezzo moltissimo anche l'interfaccia grafica, il web design, rendere semplice e apprezzabile il proprio programma o sito web, all'utente finale. Ho sempre desiderato creare un applicazione o un gioco, ho gi&#224 provato a realizzare un gioco su unity e mi sono divertito moltissimo a disegnare i personaggi e dare a loro la possibilit&#224 di muoversi seguendo vari comandi scritti in c sharp.
+	  </center>
+	  </div>
+	  </section>
+	  <div class="corsivo2">
+	<footer>
+  <dl>
+	  </center>
+    <dt> <em> <p class=rtl>Creato da Ermanno Jorgji 4I </p></dt> </div>
+	    <div class="corsivo">
+	    <p class="rtl">Ultimo aggiornamento 1/10</p>
+
+	    </div>
+</dl>
+</footer>
+</div>
+</div> 
+</body>
+</html>
+			

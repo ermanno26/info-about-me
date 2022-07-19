@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Chi sono </title>
+<style>
+h1 {
+  text-shadow: 2px 2px gray; 		/*scritta doppia in H1*/
+}
+	body {
+  background-image: url("sfondosport.jpg"); /*gifblu.gif*/
+   background-repeat: no-repeat;
+   background-color:black;
+   background-size: 1200px 1100px;
+}
+	 .barra {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x:hidden;
+  padding-top:260px; /* DISTANZA SRITTE LATERALI DALL'ALTO */
+}
+
+.barra a {
+  padding: 6px 8px 6px 13px; /* DISTANZE SCRITTE */
+  text-decoration : none; /* 	RIMUOVERE SCRITTA SOTTOLINEATA NELLA BARRA */
+  font-size: 40px;
+  font-family: "Times New Roman";
+  color: #432d4a; /* COLORE SCRITTE LATERALI */
+  display: block; /*SPAZIATURA*/
+}
+
+.barra a:hover {
+  color: #96918a; /*CURSORE SOPRA LE SCRITTE */
+}
+
+.home {
+  height:100%;
+  margin-left: 180px; /* INIZIO SCRITTA CENTRALE */
+  font-size: 28px; 
+  font-family: "Times New Roman";
+  padding: 20px 10px; /* DISATANZA BARRA VIOLA */
+}
+.colore { /*COLORE SCRITTA*/
+	color:#96918a;
+	font-family: "Times New Roman";
+	}
+.corsivo {
+	font-size:11px;
+	}
+.corsivo2 {
+	font-size:13px;
+	}
+.collegamenti {
+	font-size:15px;
+	}
+.collegamenti a {
+	text-decoration : none;
+	color: #171616;
+	}
+.collegamenti a.hover {
+		color: #ab6613;
+	}
+.size {
+	font-size:20px;
+	font-family: "Times New Roman";
+	}
+.collegamentii {
+	font-size:20px;
+	}
+.collegamentii a{	/*SOTTOLINEATURE COLORE*/
+	color: #d4d0cb;
+	}
+.bianco{
+	color: #d4d0cb;
+	font-family: "Times New Roman";
+	}
+.viola{
+	color: #432d4a;
+	font-family: "Times New Roman";
+	}
+.container {
+  position: relative;
+  width: 50%;
+}
+.titolo {
+	color:#576c7d;
+	font-family: "Times New Roman";
+	}
+/*immagine*/
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #9c958c;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .7s ease;
+}
+.container {
+  position: relative;
+  width: 37%;
+}
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: #432d4a;
+  font-size: 20px;
+  font-family: "Times New Roman";
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*fine immagine*/
+p.rtl {				/*direzione scritta a destra*/
+  direction: rtl;
+}
+				/*tabella*/
+.table {
+border-collapse:collapse
+}
+td, th {
+border:2px solid #576c7d;
+padding:5px;
+font-style: italic;
+
+}				/*tabella*/
+</style>
+</head>
+<body>
+ <body bgcolor="#8a7f7f">
+<div class="barra"> <!--div SERVE PER DIVIDERE HTML CON CSS -->
+  <a href="Home.html">Home</a>
+  <a href="ChiSono.html">Chi sono</a>
+  <a href="scuola.html">Scuola</a>
+  <a href="hobby.html">Hobby</a>
+ <a href="inizia.html"><img src="homepic.png" width="40" height="40" ></a>
+	        <a href="social.html"><img src="socials.png" width="40" height="40" padding-right="50px" ></a>
+</div>
+<div class="colore">
+<div class="home">
+	<center>
+		<div class="viola">
+<h1> Sport </h1>
+</div>
+</center>
+<center>
+													<img src="ball.gif"width="50"> 
+		<section>
+  <article>
+  <div class="size">
+	  <div class="collegamentii">
+		  <div class="titolo">
+		  <center>
+		  <h2> Cos'&#232 per me lo sport </h2>
+		  </div>
+		    <p> Per me lo sport &#232 una modalit&#224 di sfogo dalla quotidianit&#224, quando pratico sport mi concentro solo su quello e per le ore in cui lo pratico lascio da parte ogni distrazione. Sin da bambino amavo praticare sport e divertirmi, ho provato un sacco di sport differenti ed alcuni gli ho cambiati per problemi fisici o perch&#232 non provavo pi&#249 divertimento nel praticarli. </p>
+  <p> </p>
+    <section>
+	    <div class="titolo">
+	  <h2> Che sport ho fatto? </h2>
+  </section>
+  </div>
+    <p> Qui sotto ho realizzato una tabella per ragruppare meglio ogni sport e dividerlo in categorie </p>
+    
+      <table>
+<tr><td>Sport</td><td>Durata</td><td>Motivo</td></tr>
+<tr><td>Calcio</td><td>18 mesi</td><td>Problema ai piedi</td></tr>
+<tr><td>Karate</td><td>5 mesi</td><td>Non mi piaceva</td></tr>
+<tr><td>Ginnastica</td><td>2 anni</td><td>Problema ai piedi</td></tr>
+<tr><td>Mountain Bike</td><td>1 anno</td><td>Non aveva senso</td></tr>
+<tr><td>Nuoto</td><td>6 anni</td><td>Continuo a praticarlo ma senza corsi</td></tr>
+<tr><td>Palestra</td><td>1 anno</td><td>Mi ero stufato</td></tr>
+<tr><td>Tennis</td><td>Still Playng</td><td>(Ci gioco da 3 anni)</td></tr>
+</table>
+</div>
+<div class= "titolo">
+	  <h4> Quale di questi ho apprezzato di pi&#249? </h3>
+		  </div>
+		  <div class="collegamentii">
+	  <p> Decisamente tennis, penso non meriti altre spiegazioni, sport 1v1, sempre in movimento, e molto divertente, pu&#242 sembrare uno sport in cui non venga richiesto molto impegno, ma una volta provato si nota la difficolt&#224 in campo.
+	  </center>
+	  </div>
+	  </section>
+	  <div class="corsivo2">
+	<footer>
+  <dl>
+
+    <dt> <em> <p class=rtl>Creato da Ermanno Jorgji 4I </p></dt> </div>
+	    <div class="corsivo">
+	    <p class="rtl">Ultimo aggiornamento 1/10</p>
+
+	    </div>
+</dl>
+</footer>
+</div>
+</div> 
+</body>
+</html>
+			

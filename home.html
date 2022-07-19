@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Chi sono </title>
+<style>
+	h1 {
+  text-shadow: 2px 2px black; 		/*scritta doppia in H1*/
+}
+	body {
+		
+  background-image: url("sfondohome.jpg"); /*gifblu.gif*/
+   background-repeat: no-repeat;
+   background-color:black;
+   background-size: 1200px 1100px;
+}
+	 .barra {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x:hidden;
+  padding-top:260px; /* DISTANZA SRITTE LATERALI DALL'ALTO */
+}
+
+.barra a {
+  padding: 6px 8px 6px 13px; /* DISTANZE SCRITTE */
+  text-decoration : none; /* 	RIMUOVERE SCRITTA SOTTOLINEATA NELLA BARRA */
+  font-size: 38px;
+  font-family: "Times New Roman";
+  color: #432d4a; /* COLORE SCRITTE LATERALI */
+  display: block; /*SPAZIATURA*/
+}
+
+.barra a:hover {
+  color: #96918a; /*CURSORE SOPRA LE SCRITTE */
+}
+.home {
+  height:100%;
+  margin-left: 180px; /* INIZIO SCRITTA CENTRALE */
+  font-size: 28px; 
+  padding: 20px 10px; /* DISATANZA BARRA VIOLA */
+}
+.colore { /*COLORE SCRITTA*/
+	color:#96918a;
+	}
+.corsivo {
+	font-size:14px;
+	}
+.corsivo2 {
+	font-size:11px;
+	}
+.collegamenti {
+	font-size:20px;
+	}
+.collegamenti a {
+	text-decoration : none;
+	color: #d4d0cb;
+	}
+.collegamenti a:hover {
+		color: #432d4a;
+	}
+.size {
+	font-size:20px;
+	
+	}
+.collegamentii {
+	font-size:20px;
+	}
+.collegamentii a{	/*SOTTOLINEATURE COLORE*/
+	color: #d4d0cb;
+	}
+.bianco{
+	color:#96918a;
+	font-family: "Times New Roman";
+	}
+.viola{
+	font-family: "Times New Roman";
+	color: #432d4a;
+	}
+.titolo{
+	color:#576c7d;
+	font-family: "Times New Roman";
+	}
+										/*bottone*/
+.button {
+  display: inline-block;
+  border-radius: 12px;
+  background-color: #432d4a;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Times New Roman";
+  font-style: oblique;
+  padding: 5px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: url('cursoree.png'), auto;	
+  margin: 5px;
+}
+
+.button span {
+  cursor: url('cursoree.png'), auto;	
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -2px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+								/*bottone 2*/
+p.rtl {				/*direzione scritta a destra*/
+  direction: rtl;
+}		
+.cubo { 				/*movimento cubo*/
+  width: 10px;
+  height: 10px;
+  background: black;
+  position: relative;
+  padding: px 8px 6px 13px;
+  animation: mymove 1s infinite;
+}
+
+@keyframes mymove {
+  from {left: 210px;}
+  to {left: 190px;}
+}					
+	</style>
+</head>
+<body>
+ <body bgcolor="#8a7f7f">
+<div class="barra"> <!--div SERVE PER DIVIDERE HTML CON CSS -->
+
+  <a href="ChiSono.html">Chi sono</a>
+  <a href="sport.html">Sport</a>
+  <a href="scuola.html">Scuola</a>
+  <a href="hobby.html">Hobby</a>
+  <a href="inizia.html"><img src="homepic.png" width="40" height="40" ></a>
+	        <a href="social.html"><img src="socials.png" width="40" height="40" padding-right="50px" ></a>
+</div>
+
+
+<div class="home">
+	<center>
+		<div class="viola">
+<h1> Ermanno Jorgji </h1>
+		</div>
+	</center>
+  <article>
+	  <center>
+		  <div class="titolo">
+  <h3>Ciao, questo &#232 <!--carattere speciale di è--> il mio primo sito in HTML.</h3>
+  </center>
+  <div class="size">
+	 <div class="bianco">
+		 <center>
+  <p> l'HTML, acronimo di "HyperText Markup Language", &#232 utilizzato per la struttura logica di pagine web, e dal CSS, ovvero la rappresentazione grafica. &#201 possibile programmare in HTML tramite un qualsiasi editor di testo, il blocco note ne &#232 un esempio. Ovviamente se andiamo a scaricare editor di testo appositi, avremo vantaggi, quali la suddivisione dei tag in colori, visualizzare direttamente il risultato grafico tramite il software e moltre altre cose che variano di editor in editor. </p>
+  </center>
+  </div>
+  <center>
+	  <div class="titolo">
+	  <h3> Questo sito presenta i seguenti Tag <div class="cubo"><span style='font-size:17px;'>&#10549;</span></h3> </div>
+		  </div>
+</center>
+<div class="collegamenti"> 
+	<div class="bianco">
+		<center>
+<li> <button class="button" style="vertical-align:middle" onclick="alert('Il <article> specifica contenuto indipendente e autonomo.')"><span>Article</span></button>
+<li> <button class="button" style="vertical-align:middle" onclick="alert('Il <section> definisce una sezione in un documento.')"><span>Section</span></button>
+<li> <button class="button" style="vertical-align:middle" onclick="alert('Il <div> definisce una divisione o una sezione in un documento HTML.')"><span>Div  
+ </span></button>
+<li> <button class="button" style="vertical-align:middle" onclick="alert('style in HTML viene utilizzato per la visualizzazione personalizzata, come colore, carattere, dimensione e altro.')"><span>Style
+</span></button>
+<li> <button class="button" style="vertical-align:middle" onclick="alert('Il <footer> serve per indicare chi ha scritto la pagina.')"><span>Footer
+ </span></button>
+  </div>
+  </center>
+</ol>
+</div>
+</article>
+<section>
+	<center>
+		<div class="titolo">
+  <h3> Cosa fare ora?</h3>
+  </div>
+  </center>
+  <div class="size">
+	  <div class="bianco">
+		  <center>
+  <p> Semplice, qui alla sinistra ho ragruppato 4 caratteristiche che mi riguardano, ognuna di esse racconta chi sono e cosa mi piace fare. In pi&#249 puoi premere su un tag qualsiasi dell'elenco numerato per scoprire a cosa servono. (Gli sfondi e il cursore, sono stati realizzati da me)
+	  </center>
+	  </div>
+	  </div>
+	  </section>
+
+	  <div class="corsivo2">
+	<footer>
+  <dl>
+<div class="bianco">
+    <dt> <em> <p class=rtl>Creato da Ermanno Jorgji 4I </p></dt> </div>
+	    <div class="corsivo">
+<div class="bianco">
+	    <p class="rtl">Ultimo aggiornamento 1/10</p>
+
+	    </div>
+</dl>
+</footer>
+</div>
+</div>
+</body>
+</html>
+			
